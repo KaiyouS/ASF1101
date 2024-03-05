@@ -4,158 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home | 海容</title>
-    <meta property="og:title" content="CS 1130 | 海容 K A I Y O U">
-    <meta property="og:description" content="Venture into the world of computing. This website contains the projects and other programs created by Kaiyou Serra of CS 1-C for the course CS 1130: Introduction to Computing.">
+    <meta property="og:title" content="ASF 1101 | 海容 K A I Y O U">
+    <meta property="og:description" content="Come on grab your friends, we will go to very distant lands.">
     <meta property="og:image" content="https://raw.githubusercontent.com/KaiyouS/CS1130/main/src/images/logo/preview.png">
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="icon" href="./src/images/logo/favicon.ico">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S5SN18E6E5"></script><script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments)} gtag('js', new Date()); gtag('config', 'G-S5SN18E6E5');</script>
     <!---------- IMPORT HEADER ----------><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>$(function(){$("#header").load("header.html");});</script>
 </head>
 <body>
     <!-- <div id="header"></div>     -->
-    <!---------- HEADER ----------><header id="home"><div class="header-content"><h1><a href="index.html" class="logo-container"><img src="./src/images/logo/site-logo.png" alt="Site Logo" id="site-logo"><p id="logo-text">K A I Y O U</p></a></h1><nav><ul><li><a href="#home">Home</a></li><li class="dropdown"><a href="#assignments">Assignments</a><div class="dropdown-content"><a href="conversion.html">Assignment #1: Conversion</a><a href="income-tax.html">Assignment #2: Income Tax</a><a href="loops.html">Assignment #3: Loops</a><a href="simple-payroll.html">Assignment #4: Simple Payroll</a></div></li><li class="dropdown"><a href="#otherPrograms">Other Programs</a><div class="dropdown-content"><a href="grade-computation.html">Compute Grade</a><a href="add-number.html">Add Two Numbers</a><a href="shopping-cart.html">Shopping Cart</a><a href="stars.html">All The Stars</a></div></li><li><a href="about.html">About</a></li></ul></nav></div></header>
+    <!---------- HEADER ----------><header id="home"><div class="header-content"><h1><a href="index.html" class="logo-container"><img src="./src/images/logo/site-logo.png" alt="Site Logo" id="site-logo"><p id="logo-text">K A I Y O U</p></a></h1><nav><ul><li><a href="#home">Home</a></li><li class="dropdown"><li><a href="illustration.html">Illustration</a></li><li><a href="about.html">About</a></li></ul></nav></div></header>
     <div id="hamburger-container" class="hamburger-container" onclick="openNav()">
         <span class="hamburger-icon">&#9776;</span>
     </div>
     <div style="clear: both;"></div>
     <iframe src="./src/widgets/image-carousel.html" style="border: none; overflow: hidden; width: 100%; height: 100%;"></iframe>
     <div class="main-container">
-        <br><br><br>
+        
         <div class="page-description">
             <div class="content-flex">
-                <img src="./src/images/introduction-to-computing.jpeg" alt="Introduction to Computing">
-                <div>
-                    <h1 class="center giant">CS 1130: ITC Projects</h1>
+                <div style="padding: 16%;">
+                    <h1 class="center giant">Heart of an<br>Atenean Pilgrim</h1>
                     <br><br><br>
                     <p class="large">
-                        Venture into the world of computing. This website contains the projects and other programs created by <b>Kaiyou Serra</b> of <b>CS 1-C</b> for the course CS 1130: Introduction to Computing.
+                        At the heart of every Atenean lies a profound sense of purpose—a commitment to intellectual inquiry, spiritual growth, and service to others. Rooted in the Jesuit tradition and guided by the teachings of St. Ignatius of Loyola, being an Atenean is more than just attending a prestigious institution; it's about embracing a way of life—a journey of self-discovery and transformation.
                         <br><br>
-                        The course introduces students to the fundamentals of computers. It discusses the use of computing and information technology to solve problems, the components of a computer, and the creation of documents and spreadsheets.
+                        As an Atenean Pilgrim, you are called to embark on a quest for truth, wisdom, and justice—a journey that transcends the boundaries of the classroom and extends into every aspect of your life. It's a journey marked by curiosity, empathy, and a deep sense of responsibility to create positive change in the world.
                         <br><br>
-                        The course also introduces students to the fundamentals of programming. It introduces basic programming concepts such as variables, data types, operators, and control structures. It also introduces fundamental object-oriented programming concepts such as classes, objects, and methods.
-                        <br><br><br><br>
-                        Check out the source code <a href="https://github.com/KaiyouS/CS1130" target="_blank">here</a>.
+                        From the halls of learning to the streets of our communities, Ateneans are called to be men and women for others—to be agents of social change and champions of the marginalized and oppressed. It's a calling that demands courage, compassion, and unwavering faith in the inherent dignity of every human person.
                     </p>
-                </div>
-            </div>
-        </div>
-        <br>
-
-        <!---------- ASSIGNMENTS ---------->
-        <br><br><br><br><br><br><br>
-        <h1 class="center" id="assignments">ASSIGNMENTS</h1>
-        <div class="scroll-padding"></div>
-        <div class="content-wrapper">
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/conversion.jpeg" alt="Conversion">
-                </div>
-                <div class="content-description">
-                    <h2>Conversion</h2>
-                    <p>
-                        Convert temperature from Celsius to Fahrenheit and vice versa. Convert length from meters to feet and vice versa.
-                    </p>
-                    <br>
-                    <a href="conversion.html" class="button">View Program</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/income-tax.jpeg" alt="Income Tax">
-                </div>
-                <div class="content-description">
-                    <h2>Income Tax</h2>
-                    <p>
-                        Calculate the income tax. The program calculates the income tax based on the income tax table. The program also calculates the net income of the person.
-                    </p>
-                    <br>
-                    <a href="income-tax.html" class="button">View Program</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/loops.jpeg" alt="Loops">
-                </div>
-                <div class="content-description">
-                    <h2>Loops</h2>
-                    <p>
-                        Calculate the Nth factorial, sum and average of the first N numbers. The program calculates the factorial, sum, and average of all the numbers from 1 to the number inputted by the user.
-                    </p>
-                    <br>
-                    <a href="loops.html" class="button">View Program</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/simple-payroll.jpeg" alt="Simple Payroll">
-                </div>
-                <div class="content-description">
-                    <h2>Simple Payroll</h2>
-                    <p>
-                        This program calculates the gross pay, deductions, and net pay of an employee. The user inputs the employee's name, hours worked, and hourly rate. The program calculates the gross pay, deductions, and net pay of the employee. The program also calculates the gross pay, deductions, and net pay of all the employees.
-                    </p>
-                    <br>
-                    <a href="simple-payroll.html" class="button">View Program</a>
-                </div> 
-            </div>
-        </div>
-
-        <!---------- OTHER PROGRAMS ---------->
-        <br><br><br><br><br><br><br>
-        <h1 class="center" id="otherPrograms">OTHER PROGRAMS</h1>
-        <div class="scroll-padding"></div>
-        <div class="content-wrapper">
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/grade-computation.jpeg" alt="Grade Computation">
-                </div>
-                <div class="content-description">
-                    <h2 id="longString">Grade Computation</h2>
-                    <p>
-                        This program computes the grade of a student based on the student's scores in the quizzes, assignments, and exams. The program also computes the student's final grade.
-                    </p>
-                    <br>
-                    <a href="grade-computation.html" class="button">View Program</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/add-number.jpeg" alt="Add Two Numbers">
-                </div>
-                <div class="content-description">
-                    <h2>Add Two Numbers</h2>
-                    <p>
-                        This program adds two numbers. The user inputs two numbers and the program adds the two numbers.
-                    </p>
-                    <br>
-                    <a href="add-number.html" class="button">View Program</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/shopping-cart.jpeg" alt="Shopping Cart">
-                </div>
-                <div class="content-description">
-                    <h2>Shopping Cart</h2>
-                    <p>
-                        This program calculates the total price of the items in the shopping cart. The user inputs the name and price of the item. The program calculates the total price of the items in the shopping cart.
-                    </p>
-                    <br>
-                    <a href="shopping-cart.html" class="button">View Program</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content-image">
-                    <img src="./src/images/stars.jpeg" alt="All The Stars">
-                </div>
-                <div class="content-description">
-                    <h2>All The Stars</h2>
-                    <p>
-                        Look how they shine for you.
-                    </p>
-                    <br>
-                    <a href="stars.html" class="button">View Program</a>
                 </div>
             </div>
         </div>
@@ -165,18 +42,18 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" id="closeButton" onclick="closeNav()">&times;</a>
         <p class="medium white text-shadow">
-            <b class="giant">CS1130</b><br><i class="small">Introduction to Computing</i><br><br><br>
+            <b class="giant">ASF1101</b><br><i class="small">Arrupe Social Formation 1</i><br><br><br>
             <b>Author:</b><br>Kaiyou Serra (海容)<br><br>
             <b>Student Number:</b><br>2202301*****8<br><br>
             <b>Course:</b><br>BS Computer Science<br><br>
             <b>Block:</b><br>1-C<br><br>
             <b>School Email:</b><br>kserra@addu.edu.ph<br><br>
-            <b>Source Code:</b><br><a href="https://github.com/KaiyouS/CS1130" target="_blank">github.com/KaiyouS/CS1130</a><br>
+            <b>Source Code:</b><br><a href="https://github.com/KaiyouS/ASF1101" target="_blank">github.com/KaiyouS/ASF1101</a><br>
         </p>
     </div>
     <footer>
         <div class="footer-content">
-            <p>© 2023 Kaiyou Serra. All rights reserved.</p>
+            <p>© 2024 Kaiyou Serra. All rights reserved.</p>
     </footer>
     
     <script>
